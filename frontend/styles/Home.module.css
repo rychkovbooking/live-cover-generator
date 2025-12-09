@@ -1,0 +1,118 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.container > p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.form {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.formGroup label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.formGroup input:focus {
+  outline: none;
+  border-color: #0070f3;
+  box-shadow: 0 0 5px rgba(0, 112, 243, 0.3);
+}
+
+.button {
+  width: 100%;
+  padding: 15px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.button:hover:not(:disabled) {
+  background: #0051cc;
+}
+
+.button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  padding: 15px;
+  background: #ffecec;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.result {
+  background: #e8f5e9;
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #4caf50;
+}
+
+.result h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.result video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.downloadBtn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.downloadBtn:hover {
+  background: #45a049;
+}
